@@ -20,17 +20,16 @@
   box-sizing: border-box;
 }
 
+/*main_css*/
+
 body{
   display: block;
   margin: 8px;
-}
-
-p{
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 18px; 
   margin: 33px;
 }
-
 
 h1{
   display: block;
@@ -39,6 +38,12 @@ h1{
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+p, ul, td{
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
 table{
@@ -56,12 +61,6 @@ thead{
   border-color: inherit;
 }
 
-tr{
-  display: table-row;
-  vertical-align: inherit;
-  border-color: inherit;
-}
-
 th{
   display: table-cell;
   vertical-align: inherit;
@@ -72,6 +71,12 @@ th{
 tbody{
   display: table-row-group;
   vertical-align: middle;
+  border-color: inherit;
+}
+
+tr{
+  display: table-row;
+  vertical-align: inherit;
   border-color: inherit;
 }
 
@@ -86,3 +91,56 @@ td{
 a{
   color: #000;
 }
+
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;  
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#error_explanation{
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2{
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.field, .action{
+  margin-bottom: 10px;
+}
+
+form{
+  display: block;
+  margin-top: 0em;
+}
+
+.field{
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+}
+
+#notice{
+  color: green;
+}
+
+
