@@ -122,6 +122,11 @@ h2{
   color: #fff;
 }
 
+#error_explanation ul li{
+  font-size: 12px;
+  list-style: square;
+}
+
 .field, .action{
   margin-bottom: 10px;
 }
